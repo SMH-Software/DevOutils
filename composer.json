@@ -1,0 +1,38 @@
+{
+    "name": "devoutils/devoutils",
+    "description": "Boîte à outils des fonctions usuelles pour Laravel",
+    "type": "library",
+    "version": "1.0.1",
+    "homepage": "https://github.com/SMH-Software/DevOutils",
+    "scripts": {
+        "test": "php vendor/phpunit/phpunit/phpunit",
+        "dump": "composer dump-autoload"
+    },
+    "require": {
+        "nesbot/carbon": "^3.10",
+        "illuminate/support": "^11.45 || ^12.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DevOutils\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevOutils\\DevOutilsServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "SOUMAHORO YOUSSOUF",
+            "email": "soumahoroy96@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^12.2"
+    }
+}
