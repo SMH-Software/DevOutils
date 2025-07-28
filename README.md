@@ -42,7 +42,7 @@ Le SDK est composé de trois classes principales :
 use DevOutils\CodeGenerator;
 
 $code = CodeGenerator::codenumber();           // Résultat : 00001
-$ref  = CodeGenerator::codeWithPrefix('CLIENT',3);  // Résultat : CLI-00001
+$ref  = CodeGenerator::codeWithPrefix('0','CLIENT',3);  // Résultat : CLI-00001
 ```
 
 **2️⃣ Formater**
